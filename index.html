@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cheapshora — Personal Productivity Web OS</title>
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="apple-touch-icon" href="https://i.postimg.cc/R6xTW320/cheapshora-logo-1.png" />
+    <meta name="theme-color" content="#09090b" />
+  </head>
+  <body class="bg-zinc-50 dark:bg-zinc-950 text-zinc-900 dark:text-zinc-50 antialiased transition-colors duration-300">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js')
+            .then((reg) => console.log('Cheapshora Service Worker registered successfully:', reg.scope))
+            .catch((err) => console.error('Cheapshora Service Worker registration failed:', err));
+        });
+      }
+    </script>
+  </body>
+</html>
+

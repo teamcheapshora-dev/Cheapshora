@@ -1,0 +1,22 @@
+{
+  "short_name": "Cheapshora",
+  "name": "Cheapshora — Personal Productivity Web OS",
+  "description": "A high-performance personal starting workspace to launch, notes, and track your daily workflows.",
+  "icons": [
+    {
+      "src": "https://i.postimg.cc/R6xTW320/cheapshora-logo-1.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://i.postimg.cc/R6xTW320/cheapshora-logo-1.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#09090b",
+  "theme_color": "#09090b",
+  "display": "standalone",
+  "orientation": "any"
+}

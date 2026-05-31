@@ -1,0 +1,6 @@
+{
+  "name": "Cheapshora",
+  "description": "Cheapshora — A Personal Productivity Web Operating System and dashboard to launch links, track tasks, write notes, and schedule calendar events natively.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
