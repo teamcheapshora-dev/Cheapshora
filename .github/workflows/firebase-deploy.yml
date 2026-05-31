@@ -24,5 +24,5 @@ jobs:
         with:
           repoToken: ${{ secrets.GITHUB_TOKEN }}
           firebaseServiceAccount: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
-          projectId: your-firebase-project-id  # <-- Replace with your actual Firebase Project ID
+          projectId: cheapshora  # <-- Replace with your actual Firebase Project ID
           channelId: live
